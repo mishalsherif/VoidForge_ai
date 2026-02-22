@@ -1,126 +1,110 @@
-VoidForge AI – Gesture Controlled 3D Builder
-Overview
+# VoidForge AI – Gesture Controlled 3D Builder
 
-VoidForge AI is an interactive web-based application that allows users to create and manipulate 3D objects using hand gestures detected through a webcam.
-The system uses real-time gesture recognition to replace traditional mouse and keyboard controls, enabling a natural and immersive human–computer interaction experience.
+## 1. Project Description
+VoidForge AI is a browser-based interactive application that allows users to create and control 3D objects using hand gestures captured through a webcam.  
+The system replaces traditional mouse and keyboard input with real-time gesture recognition, creating a natural human–computer interaction experience.
 
-The project demonstrates how Artificial Intelligence and computer vision can be applied to build intuitive interfaces for 3D design environments.
+This project demonstrates how Artificial Intelligence and Computer Vision can be used in 3D virtual environments.
 
-Features
+---
 
-Real-time hand gesture recognition using webcam
+## 2. Key Features
+- Real-time hand gesture detection
+- Webcam-based interaction (no controller required)
+- Creation and manipulation of 3D objects
+- Visual feedback during interaction
+- Audio feedback for user actions
+- Runs directly in a web browser
 
-Control and creation of 3D objects without mouse/keyboard
+---
 
-Interactive 3D voxel building environment
+## 3. Technologies Used
+- Programming: JavaScript
+- Frontend: HTML5, CSS3
+- 3D Rendering: Three.js / WebGL
+- Computer Vision: Hand Tracking (MediaPipe or similar)
+- Audio: Web Audio API
 
-Visual feedback while interacting with objects
+---
 
-Audio feedback for user actions
+## 4. System Requirements
+- Laptop/PC with webcam
+- Modern web browser (Google Chrome recommended)
+- Windows or Linux operating system
+- Proper lighting environment
 
-Works directly in a web browser
+---
 
-Technologies Used
+## 5. Installation
+1. Download or clone the repository:
+   git clone https://github.com/your-username/VoidForge-ai.git
 
-JavaScript
+2. Open the project folder.
 
-HTML5 & CSS3
+3. Run the application:
+   - Open "index.html" in your browser
+   OR
+   - Use Live Server in VS Code (recommended)
 
-WebGL / Three.js (3D rendering)
+---
 
-MediaPipe / Hand Tracking (Computer Vision)
+## 6. How the System Works
+1. The webcam captures real-time video.
+2. The hand-tracking model detects hand landmarks.
+3. Gestures are identified from finger positions.
+4. The system converts gestures into actions.
+5. The 3D engine updates objects based on user movement.
 
-Web Audio API
+---
 
-System Requirements
+## 7. Basic Controls
+- Show Hand → Activate detection
+- Move Hand → Move cursor
+- Pinch Gesture → Create or select object
+- Change Gesture → Modify object
 
-A computer or laptop with webcam
+---
 
-Modern web browser (Google Chrome recommended)
+## 8. Project Modules
+- Camera Module – Captures webcam input
+- Gesture Recognition Module – Detects hand gestures
+- 3D Rendering Module – Displays and updates objects
+- Interaction Module – Maps gestures to actions
+- Audio Module – Provides sound feedback
 
-Windows or Linux operating system
+---
 
-Installation & Setup
+## 9. Applications
+- 3D virtual modeling
+- Educational demonstrations
+- Human–computer interaction research
+- AR/VR interface development
+- Assistive technology systems
 
-Download or clone the repository
+---
 
-git clone https://github.com/your-username/VoidForge-ai.git
+## 10. Limitations
+- Requires good lighting conditions
+- Webcam quality affects accuracy
+- Performance depends on system hardware
 
-Open the project folder
+---
 
-Run the project
-Simply open:
+## 11. Future Improvements
+- More gesture controls
+- Multi-hand tracking
+- Save and export models
+- VR headset support
+- Improved gesture recognition accuracy
 
-index.html
+---
 
-(You can also use Live Server in VS Code for best performance.)
-
-How to Use
-
-Allow camera access when prompted.
-
-Place your hand in front of the webcam.
-
-Use gestures to interact with the environment:
-
-Gesture	Action
-Open Palm	Activate detection
-Pinch / Select Gesture	Create block
-Move Hand	Move cursor in 3D space
-Gesture Change	Modify object / interaction
-
-(Gestures may vary slightly depending on lighting and camera position.)
-
-Project Modules
-
-Camera Input Module – Captures real-time webcam video
-
-Gesture Detection Module – Detects hand landmarks using computer vision
-
-3D Rendering Module – Creates and displays 3D objects
-
-Interaction Module – Maps gestures to actions
-
-Audio Feedback Module – Provides sound feedback for user interaction
-
-Applications
-
-Virtual 3D modeling
-
-Educational demonstrations
-
-Human–computer interaction research
-
-AR/VR interface prototyping
-
-Accessible interfaces for physically challenged users
-
-Limitations
-
-Requires good lighting conditions
-
-Webcam quality affects accuracy
-
-Performance depends on browser and system hardware
-
-Future Improvements
-
-More gesture commands
-
-Multi-hand interaction
-
-Object saving and exporting
-
-VR headset support
-
-Improved gesture accuracy using trained models
-
-Author
-
-Mishal Sherif Moosa
-B.Sc Artificial Intelligence & Machine Learning
+## 12. Author
+Mishal Sherif Moosa  
+B.Sc Artificial Intelligence & Machine Learning  
 Nehru Arts and Science College
 
-License
+---
 
-This project is for educational and research purposes.
+## 13. License
+This project is created for educational and research purposes.
